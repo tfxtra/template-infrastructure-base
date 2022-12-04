@@ -1,0 +1,8 @@
+terraform {
+    cloud {
+        organization = ${org_name}
+        workspaces {
+            name = ${workspace_name}
+        }
+    }
+}   
